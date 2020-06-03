@@ -305,9 +305,11 @@ footer a:hover {
 
 section {
   opacity: 0;
-  transition: opacity 1s;
+  transition: all 1s;
+  transform: translate(0, 20px);
 }
 
 section.visible {
   opacity: 1;
+  transform: translate(0, 0);
 }
