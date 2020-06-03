@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width" />
+	
+	<title>Carter Campbell | Contact</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/project-style.css">
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- Controls function of hamburger menu  -->
+	
+	<script>
+
+		$( document ).ready(function() {
+			  $( ".cross" ).hide();
+		$( ".menu" ).hide();
+		$( ".hamburger" ).click(function() {
+		$( ".menu" ).slideToggle( "slow", function() {
+		$( ".hamburger" ).hide();
+		$( ".cross" ).show();
+		});
+		});
+
+		$( ".cross" ).click(function() {
+		$( ".menu" ).slideToggle( "slow", function() {
+		$( ".cross" ).hide();
+		$( ".hamburger" ).show();
+		});
+		});
+				});
+
+    </script>
+
+
+    <div id="wrapper">
+	  
+	  <header>
+	    <div id= "logo"><a href="index.html"><img src="images/carter-campbell-black.png" alt="Carter Campbell Cross Country Logo" class=responsive></a></div>
+	    <nav>
+	      <ul>
+	        <li><a href="index.html">Home</a></li>
+            <li><a href="my-story.html">My Story</a></li>
+            <li><a href="my-gear.html">My Gear</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="records.html">Records</a></li>
+            <li><a href="contact.html" class=current>Contact</a></li>
+	      </ul>
+	    </nav>
+	    
+	    <!-- Hamburger menu controls -->
+
+            <div id="mobile">
+                <button class="hamburger">&#x2261;</button>
+                <button class="cross">x</button>
+            </div>
+
+            <!-- Hamburger menu options  -->
+
+            <div class="menu">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="my-story.html">My Story</a></li>
+                    <li><a href="my-gear.html">My Gear</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li><a href="records.html">Records</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+            </div>
+	  </header>
+	  
+	  <div id="content">
+	      <div id="contact">
+	          <h1>Contact Me</h1>
+	          <img src="images/carter-sanfran.jpg" alt="Carter Campbell in San Fransisco" class=img-center>
+	          <br>
+	          <p>If you would like to get in touch with me for any training tips, questions, advice, or comments, please reach out to me here:</p>
+              <h2>ccamp04@rams.colostate.edu</h2>
+              <p>Thank you for visiting my portfolio!</p>
+              <br>
+              <h3>Click below to view new running pictures posted to my Instagram</h3>
+              <a href="https://www.instagram.com/carterwcampbell/"><img src="images/insta.png" alt="Instagram Logo" class=insta></a>
+	      </div>
+	  </div>
+	  
+      <footer>Written and Designed by: <a href="#">Carter Campbell</a></footer>
+
+
+</body>
+</html>

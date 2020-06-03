@@ -1,0 +1,304 @@
+img {
+  display: block;
+}
+
+p {
+  color: black;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #ddd;
+/*  width: 98%;*/
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#logo {
+  width: 30%;
+  padding: 0;
+}
+
+nav {
+  width: 70%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  width: 16.67%;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.current {
+  color: #1e1ef3;
+}
+
+nav a:hover {
+  color: #1e1ef3;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.pictures a {
+  padding: 5px 10px;
+  display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.pictures img {
+  border: 1px solid black;
+}
+
+.my-story-pic {
+  overflow: hidden;
+  height: 410px;
+}
+
+.my-story-pic h2 {
+  position: relative;
+  bottom: 400px;
+  left: 140px;
+  color: white;
+}
+
+.my-gear-pic {
+  overflow: hidden;
+  height: 410px;
+}
+
+.my-gear-pic h2 {
+  position: relative;
+  bottom: 400px;
+  left: 140px;
+  color: white;
+}
+
+.training-pic {
+  overflow: hidden;
+  height: 410px;
+}
+
+.training-pic h2 {
+  position: relative;
+  bottom: 100px;
+  left: 140px;
+  color: white;
+}
+
+.records-pic {
+  overflow: hidden;
+  height: 410px;
+}
+
+.records-pic h2 {
+  position: relative;
+  bottom: 100px;
+  left: 140px;
+  color: white;
+}
+
+.contact-pic {
+  overflow: hidden;
+  height: 410px;
+}
+
+.contact-pic h2 {
+  position: relative;
+  bottom: 90px;
+  left: 140px;
+  color: white;
+}
+
+#content {
+  display: flex;
+}
+
+.content-bl {
+  display: block;
+}
+
+.content-bl h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #1e1ef3;
+}
+
+.content-bl h3 {
+  text-align: center;
+}
+
+#main {
+  width: 100%;
+  /* padding-left: 160px; */
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+}
+
+#main h1 {
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+}
+
+#main h3 {
+  color: black;
+  padding: 15px 60px;
+/*  background-color: #212529;*/
+  margin-bottom: 0;
+}
+
+#main p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 10px 70px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#contact {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+}
+
+#contact h1 {
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+#contact p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 10px 70px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact h3 {
+    text-align: center;
+}
+
+#main ul {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 10px 70px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.img-left {
+  border: 1px solid;
+  margin-right: 10px;
+  float: left;
+}
+
+.img-right {
+  border: 1px solid;
+  margin-left: 10px;
+  float: right;
+}
+
+.img-center {
+  border: 1px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.insta {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#main a {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sidebar {
+  width: 160px;
+  margin-top: 21.44px;
+  margin-right: 10px;
+  padding: 0 10px 0 10px;
+  border-right: 1px dotted black;
+  /* position: fixed; */
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  padding: 10px 0;
+}
+
+#sidebar a {
+  color: black;
+}
+
+#sidebar a:hover {
+  color: #1e1ef3;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #1e1ef3;
+}
+
+.menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}

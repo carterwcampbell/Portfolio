@@ -1,0 +1,101 @@
+nav {
+    display: none;
+}
+
+#mobile {
+    background: white;
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#content {
+    flex-direction: column;
+}
+
+#sidebar {
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    width: 80%;
+    text-align: center;
+}
+
+#sidebar ul {
+    padding: 0;
+}
+
+#sidebar li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#mobile button {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.hamburger {
+	display: block;
+	background: none;
+	color: black;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+#logo {
+    width: 85%;
+}
+
+.cross {
+    display: block;
+	background: none;
+	color: black;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+.menu {
+  z-index: 1000;
+  font-weight: bold;
+  width: 93.5%; 
+  position: absolute;
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    background: #eee;
+    padding: 15px 0;
+    border-bottom: 1px dotted #bbb
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #1e1ef3;
+}
+
+.pictures h2 a {
+    color: white;
+    text-decoration: none;
+}

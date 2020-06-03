@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width" />
+	
+	<title>Carter Campbell | Records</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/project-style.css">
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    
+    <!-- Controls function of hamburger menu  -->
+	
+	<script>
+
+		$( document ).ready(function() {
+			  $( ".cross" ).hide();
+		$( ".menu" ).hide();
+		$( ".hamburger" ).click(function() {
+		$( ".menu" ).slideToggle( "slow", function() {
+		$( ".hamburger" ).hide();
+		$( ".cross" ).show();
+		});
+		});
+
+		$( ".cross" ).click(function() {
+		$( ".menu" ).slideToggle( "slow", function() {
+		$( ".cross" ).hide();
+		$( ".hamburger" ).show();
+		});
+		});
+				});
+
+    </script>
+
+    <div id="wrapper">
+     
+      <header>
+	    <div id= "logo"><a href="index.html"><img src="images/carter-campbell-black.png" alt="Carter Campbell Cross Country Logo" class=responsive></a></div>
+	    <nav>
+	      <ul>
+	        <li><a href="index.html">Home</a></li>
+            <li><a href="my-story.html">My Story</a></li>
+            <li><a href="my-gear.html">My Gear</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="records.html" class=current>Records</a></li>
+            <li><a href="contact.html">Contact</a></li>
+	      </ul>
+	    </nav>
+	    
+	    
+	    <!-- Hamburger menu controls -->
+
+            <div id="mobile">
+                <button class="hamburger">&#x2261;</button>
+                <button class="cross">x</button>
+            </div>
+
+            <!-- Hamburger menu options  -->
+
+            <div class="menu">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="my-story.html">My Story</a></li>
+                    <li><a href="my-gear.html">My Gear</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li><a href="records.html">Records</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+            </div> 
+        </header>
+	  </header>
+     
+     <div id="content">
+         <div id="sidebar">
+          Check Out These Races:
+	      <ul>
+	        <li><a href="https://bb10k.bolderboulder.com/">Bolder Boulder</a></li>
+            <li><a href="https://fortitude10k.bolderboulder.com/">Fortitude</a></li>
+            <li><a href="https://fortcollinshumanrace.com/">Fort Collins Human Race</a></li>
+            <li><a href="https://www.mountainmile.com/">Mountain Avenue Mile</a></li>
+            <li><a href="http://www.fctdayrun.com/">Fort Collins Thanksgiving Day Run</a></li>
+	      </ul>
+	     </div>
+	     
+	     <div id="main">
+	     
+	       <h1>Records</h1>
+	       
+	       <p>Over the years of middle school, high school, and post high school competing, I have participated in quite a few races. Here are some of my best times and notable achievments.</p>
+	       <h3><a id="PB"></a>Personal Bests</h3>
+	       <p>
+	         <ul>
+	           <li>10k - 35:11 - Fortitude 10k - Fort Collins, CO</li>
+	           <li>5k - 17:27 - Firecracker 5k - Fort Collins, CO</li>
+               <li>1 Mile - 4:53 - Mountain Avenue Mile - Fort Collins, CO</li>
+	         </ul>
+	       </p>
+	       
+	       <h3><a id="NR"></a>Notable Races</h3>
+           <p>
+             <ul>
+               <li>Fort Collins Human Race 10k - 2019 - First Place Overall</li>
+               <li>Bolder Boulder 10k - 2019 - 151st Place Overall</li>
+               <li>San Fransisco Turkey Trot - 2018 - 3rd Place Overall</li>
+               <li>Fortitude 10k - 2018 - 20th Place Overall</li>
+               <li>Firecracker 5k - 2019 - 2nd Place Overall (Citizens Race)</li>
+             </ul>
+           </p>
+           
+           <h3><a id="UR"></a>Upcoming Races</h3>
+           <p>
+             <ul>
+               <li>Firecracker 5k - July 4th, 2020</li>
+               <li>Fort Collins Human Race - 2020</li>
+               <li>Fortitude 10k - September 2nd, 2019</li>
+               <li>Fort Collins Thanksgiving Day Run - November 28th, 2019</li>
+             </ul>
+           </p>
+	       
+	     </div>
+	     
+      </div>
+      
+      <footer>Written and Designed by: <a href="#">Carter Campbell</a></footer>
+  </div>
+
+</body>
+</html>
