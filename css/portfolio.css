@@ -1,0 +1,82 @@
+/* Styling for fading in */
+section {
+    opacity: 0;
+    transition: all 1s;
+    transform: translate(0, 20px); 
+}
+  
+  section.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#content {
+    display: flex;
+}
+
+img {
+    display: block;
+}
+
+#main {
+    width: 100%;
+    /* padding-left: 160px; */
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+}
+
+#sidebar {
+    width: 20%;
+    margin-top: 21.44px;
+    margin-right: 10px;
+    padding: 0 10px 0 10px;
+    border-right: 1px dotted black;
+    /* position: fixed; */
+}
+
+#sidebar h3 {
+    text-align: center;
+}
+
+#sidebar h5 {
+    text-align: center;
+    color: gray;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    padding-top: 20px;
+}
+
+#sidebar li {
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.img-center {
+    border: 1px solid;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
