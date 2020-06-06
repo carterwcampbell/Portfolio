@@ -32,7 +32,7 @@ img {
 
 #main {
     width: 100%;
-    padding-top: 10px;
+    padding: 10px 0px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 30px;
 }
@@ -57,8 +57,78 @@ p a {
     color: blue;
 }
 
-.languages {
-    
+.tile {
+    padding-left: 70px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.5s linear;
+}
+
+.tile h4 {
+    border: 1px solid #ddd;
+    margin: 0px;
+    margin-right: 70px;
+    padding: 5px 10px;
+    background-color: #eee;
+    transition: all 0.5s linear;
+}
+
+.tile.active {
+    margin-bottom: 0px;
+}
+
+.tile.active h4{
+    background-color: #2c98f0;
+    color: white;
+}
+
+.languages, .practices, .communication {
+    opacity: 0;
+    transition: all 0.5s linear;
+    background: white;
+    height: 0;
+    pointer-events: none;
+}
+
+ul {
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.languages ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 70px 10px 70px;
+    padding-inline-start: 0px;
+}
+
+.languages li {
+    width: 20%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.languages.active {
+    opacity: 1;
+    height: 68px;
+}
+
+.practices ul, .communication ul {
+    margin: 0px 70px 10px 70px;
+}
+
+.practices li, .communication li {
+    padding: 5px 0px;
+}
+
+.practices.active {
+    opacity: 1;
+    height: 140px;
+}
+
+.communication.active {
+    opacity: 1;
+    height: 120px;
 }
 
 #sidebar {
@@ -83,6 +153,7 @@ p a {
     list-style: none;
     padding-inline-start: 0px;
     padding-top: 20px;
+    border: none;
 }
 
 #sidebar li {
