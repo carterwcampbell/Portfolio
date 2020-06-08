@@ -10,9 +10,14 @@ section {
     transform: translate(0, 0);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #eee;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
 }
 
 #wrapper {
@@ -20,6 +25,7 @@ body {
     margin: 0 auto;
     background-color: white;
     border: 1px solid #ddd;
+    border-top: none;
 }
 
 #content {
@@ -35,6 +41,7 @@ img {
     padding: 10px 0px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 30px;
+    margin-left: 10px;
 }
 
 .img-center {
@@ -110,7 +117,7 @@ ul {
 
 .languages.active {
     opacity: 1;
-    height: 68px;
+    height: 86px;
 }
 
 .practices ul, .communication ul {
@@ -132,12 +139,14 @@ ul {
 }
 
 #sidebar {
-    width: 20%;
-    margin-top: 21.44px;
-    margin-right: 10px;
-    padding: 0 10px 0 10px;
+    position: sticky;
+    top: 1rem;
+    margin-left: 10px;
+    padding-right: 10px;
+    align-self: start;
     border-right: 1px dotted black;
-    /* position: fixed; */
+    height: 100%;
+    width: 300px;
 }
 
 #sidebar h3 {
@@ -158,8 +167,16 @@ ul {
 
 #sidebar li {
     text-align: center;
-    color: gray;
     padding-bottom: 20px;
+}
+
+#sidebar li a {
+    color: gray;
+    text-decoration: none;
+}
+
+#sidebar li.active a{
+    color: red;
 }
 
 .img-headshot {
@@ -174,4 +191,5 @@ footer {
     border-top: 1px solid black;
     padding: 10px 0;
     margin-top: 10px;
+    z-index: 9999;
 }
