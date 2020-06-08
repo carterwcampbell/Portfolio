@@ -54,6 +54,10 @@ img {
     padding-left: 15px;
 }
 
+#main h3 {
+    padding-left: 25px;
+}
+
 #main p {
     line-height: 1.5em;
     padding: 10px 70px;
