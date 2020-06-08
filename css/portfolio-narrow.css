@@ -1,0 +1,12 @@
+.languages ul {
+    display: block;
+    text-align: center;
+}
+
+.languages li {
+    width: 100%
+}
+
+.languages.active {
+    height: auto;
+}

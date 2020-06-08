@@ -7,13 +7,15 @@
 	<title>Carter Campbell</title> <!-- Add something here -->
 	
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+	<link href="css/portfolio-narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
 	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="Javascript/fadein.js"></script>
+    <script src="Javascript/dropdown.js"></script>
+    <script src="Javascript/navigation.js"></script>
 </head>
 
 <body>
@@ -23,23 +25,124 @@
     <div id="wrapper">
         
         <div id="content">
-            <div id="sidebar">
-                <img src="images/headshot.jpg" alt="Carter Campbell" class=img-center>
+            <nav id="sidebar">
+                <img src="images/headshot.jpg" alt="Carter Campbell" class=img-headshot>
                 <h3>Carter Campbell</h3>
                 <h5>Entry Level Computer Scientist</h5>
 
                 <ul>
-                    <li>About Me</li>
-                    <li>Skills and Abilities</li>
-                    <li>Notable Projects</li>
-                    <li>Education</li>
-                    <li>Work Experience</li>
-                    <li>Contact</li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#Skills">Skills and Abilities</a></li>
+                    <li><a href="#Projects">Notable Projects</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Work">Work Experience</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
 
             <div id="main">
-                <h1>this is in the main</h1>
+                <navElem id="AboutMe">
+                    <section><img src="images/carter-sanfran.jpg" alt="Carter Campbell" class=img-center></section>
+                    <section><h1>About Me</h1></section>
+                    <section>
+                        <p><strong>Hi! I'm Carter Campbell </strong>I am a recent graduate from Colorado State University in the class of 2020. I am an entry level computer scientist looking for my first step in an exciting career in software development and engineering. Right now, I am looking for any job opportunity in the software industry to get my first hands on experience in the world.</p>
+                    </section>
+                    <section>
+                        <p>My biggest passion outside of software is running. I started running when I was in the eighth grade, and haven’t stopped since. I love spending part of my day out on the roads, trails, or mountains to forget about everything around me. I love competing in local road races ranging from 5k to half marathons. Feel free to check out my first ever website I designed from scratch <a href="running.html">here</a> which is all about my running career.</p>
+                    </section>
+                    <section>
+                        <p>In terms of software, I have a large interest in game development and design. I have been playing games for the better part of my life, and they are what inspired me to pursue game development. Not only do I enjoy games in general, I believe they serve as an escape from the real world, and the hardships it can bring from time to time. I would love to be a member of a team that impacts a person’s life for the better through the power of games.</p>
+                    </section>
+                    <section>
+                        <p>This leads into my passion for software development. Seeing and experiencing the difference that video games can have on an individual, my eyes and mind were opened to the impact technology as a whole can make on our entire society. I realized that I am pursuing this career not because it’s cool, or because it may pay a lot, but because of the difference it can make. From launching rockets and satellites into space, to developing technology to save lives, to simply playing a character in a large open world, technology can make an impact to change people’s lives. I am looking for an opportunity to do just that. Make a real difference in today’s society.</p>
+                    </section>
+                </navElem>
+                
+                
+                <navElem id="Skills">
+                    <section><h1>Skills and Abilities</h1></section>
+                    <section>
+                        <p>Through my academic career, I have had hands-on experience with many languages in many environments. Here’s what I have to offer:</p>
+                    </section>
+                    <section>
+                        <div id="lang" class=tile>
+                            <h4>Languages +</h4>
+                        </div>
+                        <div class=languages>
+                            <ul>
+                                <li>C/C++</li>
+                                <li>Java</li>
+                                <li>SQL</li>
+                                <li>Python</li>
+                                <li>HTML & CSS</li>
+                                <li>Javascript</li>
+                                <li>React</li>
+                                <li>Solidity</li>
+                                <li>Unreal Eninge</li>
+                            </ul>
+                        </div>
+
+                        <div id="prac" class=tile>
+                            <h4>Practices +</h4>
+                        </div>
+                        <div class=practices>
+                            <ul>
+                                <li>Agile Development</li>
+                                <li>Scrum Environment</li>
+                                <li>Test Driven Development</li>
+                                <li>Object Oriented Programming</li>
+                            </ul>
+                        </div>
+
+                        <div id="comm" class=tile>
+                            <h4>Communication and Leadership +</h4>
+                        </div>
+                        <div class=communication>
+                            <ul>
+                                <li>Excellent ability to communicate in a team based environment with experience in scrum development</li>
+                                <li>Eager to receive feedback for improvement</li>
+                                <li>Can demonstrate leadership abilities through the experience of section leader in the Windsor High School Marching Band, and working leadership positions</li>
+                            </ul>
+                        </div>
+                    </section> 
+                </navElem>
+
+                <navElem id="Projects">
+                    <section><h1>Notable Projects</h1></section>
+                    <section>
+                        <p>I have worked on a handful of projects both in and out of school. Here are some selections that are interesting and I am proud of:</p>
+                    </section>
+                    <section><h3>Academic Projects</h2></section>
+                    <section>
+                        <h4>Trip Planning Application</h4>
+                        <img src="images/Placeholder.PNG">
+                        <p>A web application designed to help a non experienced user plan a trip. The application was designed with Javascript and React, and a Java and Node.js backend server to make a full stack. The users were able to enter coordinates, upload a JSON file, view an itinerary containing total mileage and distance between locations, and customize their trip to their own desire. There was also a large focus placed in making the application friendly to users with no technical experience, and having a clean, usable mobile interface.</p>
+                    </section>
+
+                    <section></section>
+                        <h4>Ray Tracer</h4>
+                        <img src="images/Placeholder.PNG">
+                        <p>Designed and written from scratch in C++, this ray tracer has the ability to generate photo realistic images. Taking in a driver file specifying camera placement, objects in the scene, and possible textures, photos are generated showing shadows, lighting, objects, and reflection.</p>
+                    </section>
+
+                    <section>   
+                        <h4>Simple Database UI</h4>
+                        <img src="images/Placeholder.PNG">
+                        <p>After fully implementing an SQL relational library database, a simple UI was made to interact with the data. Written in Java, JOptionPane was used to display messages and take input from the user. While the interface itself could have been prettier, the focus was to allow the user to check a book out from one of the several libraries stored on the database. The UI would guide the user through the process, and changes would be made to the database based on the input given.</p>
+                    </section> 
+
+                    <section>
+                        <h4>Winery Database</h4>
+                        <img src="images/Placeholder.PNG">
+                        <p>Only being given a problem description, a database on a local winery was fully implemented. The database was conceptually modeled, logically normalized to third normal form, and implemented on Microsoft SQL Server. Some test data was then entered to ensure business related queries would show the lifecycle of a product to order to invoice, to customer.</p>
+                    </section>
+
+                    <section><h3>Personal Projects</h3></section>
+                    <section>
+                        <h4>Unreal Engine - Building Escape</h4>
+                    </section>
+
+                </navElem>
             </div>
         </div>
         
