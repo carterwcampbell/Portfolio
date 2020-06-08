@@ -1,124 +1,50 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width" />
 	
-	<title>Carter Campbell | Fort Collins Distance Runner</title>
+	<title>Carter Campbell</title> <!-- Add something here -->
 	
-	<link rel="stylesheet" type="text/css" href="css/project-style.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
 	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="Javascript/fadein.js"></script>
 </head>
+
 <body>
-  
-  
-  <!-- Controls function of hamburger menu  -->
-	
-	<script>
 
-		$( document ).ready(function() {
-			  $( ".cross" ).hide();
-		$( ".menu" ).hide();
-		$( ".hamburger" ).click(function() {
-		$( ".menu" ).slideToggle( "slow", function() {
-		$( ".hamburger" ).hide();
-		$( ".cross" ).show();
-		});
-		});
+    <script src="Javascript/hamburger.js"></script>
 
-		$( ".cross" ).click(function() {
-		$( ".menu" ).slideToggle( "slow", function() {
-		$( ".cross" ).hide();
-		$( ".hamburger" ).show();
-		});
-		});
-				});
-
-    </script>
-
-  <div id="wrapper">
-
-        <header>
-          <div id=logo>
-          <a href="index.html"><img src="images/carter-campbell-black.png" alt="Carter Campbell Cross Country Logo" class=responsive></a>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html" class=current>Home</a></li>
-              <li><a href="my-story.html">My Story</a></li>
-              <li><a href="my-gear.html">My Gear</a></li>
-              <li><a href="training.html">Training</a></li>
-              <li><a href="records.html">Records</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          
-          <!-- Hamburger menu controls -->
-
-            <div id="mobile">
-                <button class="hamburger">&#x2261;</button>
-                <button class="cross">x</button>
-            </div>
-
-            <!-- Hamburger menu options  -->
-
-            <div class="menu">
+    <div id="wrapper">
+        
+        <div id="content">
+            <div id="sidebar">
+                <img src="images/headshot.jpg" alt="Carter Campbell" class=img-center>
+                <h3>Carter Campbell</h3>
+                <h5>Entry Level Computer Scientist</h5>
 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="my-story.html">My Story</a></li>
-                    <li><a href="my-gear.html">My Gear</a></li>
-                    <li><a href="training.html">Training</a></li>
-                    <li><a href="records.html">Records</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-            </div> 
-        </header>
-        
-        
-        <div class="content-bl">
-         <h1>Fort Collins Distance Runner</h1>
-         <h3>Personal Running Portfolio</h3>
-          <div class="pictures">
-          
-          
-           <div class="my-story-pic">
-            <a href="my-story.html"><img src="images/carter-fortitude.jpg" alt="Carter Campbell at the Fortitude 10k"></a>
-            <h2><a href="my-story.html">My Story</a></h2>
-           </div>
-           
-           <div class="my-gear-pic">
-            <a href="my-gear.html"><img src="images/carter-human-race.jpg" alt="Carter Campbell at the Fort Collins Human Race"></a>
-            <h2><a href="my-gear.html">My Gear</a></h2>
-           </div>
-           
-           <div class="training-pic">
-             <a href="training.html"><img src="images/carter-human-race-end.jpg" alt="Carter Campbell finishing the Fort Collins Human Race"></a>
-             <h2><a href="training.html">Training</a></h2>
-           </div>
-           
-           <div class="records-pic">
-             <a href="records.html"><img src="images/carter-bb-finish-2.jpg" alt="Carter Campbell at the Bolder Boulder 2019 finish"></a>
-             <h2><a href="records.html">Records</a></h2>
-           </div>
-           
-           <div class="contact-pic">
-             <a href="contact.html"><img src="images/carter-human-race-award.jpg" alt="Carter Campbell is awarded second place overall at the Fort Collins Human Race"></a>
-             <h2><a href="contact.html">Contact</a></h2>
-           </div>
-           
-          </div>
-          
-          
-         
+                    <li>About Me</li>
+                    <li>Skills and Abilities</li>
+                    <li>Notable Projects</li>
+                    <li>Education</li>
+                    <li>Work Experience</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div id="main">
+                <h1>this is in the main</h1>
+            </div>
         </div>
         
-  </div>
+        <footer>Written and Designed by: Carter Campbell</footer>
+
+    </div>
 
 </body>
-</html>
