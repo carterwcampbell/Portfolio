@@ -144,6 +144,17 @@ ul {
     height: 120px;
 }
 
+#Education ul {
+    border: none;
+    float: left;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+#Education li {
+    /* text-decoration: none; */
+}
+
 #sidebar {
     position: sticky;
     top: 1rem;
