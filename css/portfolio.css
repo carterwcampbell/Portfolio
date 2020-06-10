@@ -155,6 +155,23 @@ ul {
     /* text-decoration: none; */
 }
 
+#Work h4 {
+    margin-bottom: 0px;
+}
+
+#Work p {
+    font-size: .9em;
+    margin-top: 0px;
+}
+
+#Contact p {
+    text-align: center;
+}
+
+#Contact h3 {
+    text-align: center;
+}
+
 #sidebar {
     position: sticky;
     top: 1rem;
