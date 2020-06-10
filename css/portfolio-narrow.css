@@ -1,3 +1,23 @@
+#content {
+    flex-direction: column;
+}
+
+#wrapper {
+    border: 1px solid #ddd;
+}
+
+#main {
+    border-left: none;
+}
+
+#sidebar {
+    display: none;
+}
+
+#hero {
+    width: 94%;
+}
+
 .languages ul {
     display: block;
     text-align: center;
@@ -9,4 +29,63 @@
 
 .languages.active {
     height: auto;
+}
+
+#mobile button {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 3px;
+}
+
+.hamburger {
+	display: block;
+	background: none;
+	color: black;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+.cross {
+    display: block;
+	background: none;
+	color: black;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+.menu {
+  z-index: 1000;
+  font-weight: bold;
+  width: 93.5%; 
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.menu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    background: #eee;
+    padding: 15px 0;
+    border-bottom: 1px solid #bbb
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #2c98f0;
 }
