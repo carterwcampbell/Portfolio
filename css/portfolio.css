@@ -176,6 +176,12 @@ ul {
 
 #Projects img {
     margin: 0 auto;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#pictures {
+    text-align: center;
 }
 
 #Education ul {
@@ -204,6 +210,11 @@ ul {
     height: 100px;
     background-color: #2c98f0;
     margin-left: 15px;
+    background-image: url("https://www.cartercampbell.com/images/carter-sanfran.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    text-align: center;
 }
 
 #Contact p {
