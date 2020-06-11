@@ -14,6 +14,10 @@ section.visible {
     display: none;
 }
 
+.menu {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -105,12 +109,12 @@ p a {
 
 .languages {
     font-weight: bold;
+    text-align: center;
 }
 
 .languages, .practices, .communication {
     z-index: 1000;
-    width: 100%; 
-    text-align: center; 
+    width: 100%;  
     margin: 0 auto;
 }
 
@@ -167,6 +171,7 @@ ul {
 #Projects p {
     border-bottom: 1px dotted black;
     margin-left: 10px;
+    padding-bottom: 25px;
 }
 
 #Projects img {
@@ -244,6 +249,10 @@ ul {
     color: gray;
     text-decoration: none;
 }
+
+#sidebar a:hover {
+    color: #2c98f0;
+  }
 
 #sidebar li.active a{
     color: #2c98f0;
