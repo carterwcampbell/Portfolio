@@ -20,13 +20,32 @@
 
 <body>
 
+    <!-- Hamburger menu script -->
     <script src="Javascript/hamburger.js"></script>
+
+    <!-- Hamburger menu button -->
+    <div id="mobile">
+        <button class="hamburger">&#x2261;</button>
+        <button class="cross">x</button>
+    </div>
+
+    <!-- Hamburger menu navigation -->
+    <div class="menu">
+        <ul>
+            <li style="border-top: 1px solid #bbb;"><a href="#AboutMe">About Me</a></li>
+            <li><a href="#Skills">Skills and Abilities</a></li>
+            <li><a href="#Projects">Notable Projects</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Work">Work Experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+    </div>
 
     <div id="wrapper">
         
         <div id="content">
             <nav id="sidebar">
-                <img src="images/headshot.jpg" alt="Carter Campbell" class=img-headshot>
+                <img src="images/headshot.jpg" alt="Carter Campbell" class="img-headshot responsive">
                 <h3>Carter Campbell</h3>
                 <h5>Entry Level Computer Scientist</h5>
 
@@ -42,13 +61,13 @@
 
             <div id="main">
                 <navElem id="AboutMe">
-                    <section><img src="images/carter-sanfran.jpg" alt="Carter Campbell" class=img-center></section>
+                    <section><img src="images/carter-sanfran.jpg" alt="Carter Campbell" class="img-center responsive"></section>
                     <section><h1>About Me</h1></section>
                     <section>
                         <p><strong>Hi! I'm Carter Campbell </strong>I am a recent graduate from Colorado State University in the class of 2020. I am an entry level computer scientist looking for my first step in an exciting career in software development and engineering. Right now, I am looking for any job opportunity in the software industry to get my first hands on experience in the world.</p>
                     </section>
                     <section>
-                        <p>My biggest passion outside of software is running. I started running when I was in the eighth grade, and haven’t stopped since. I love spending part of my day out on the roads, trails, or mountains to forget about everything around me. I love competing in local road races ranging from 5k to half marathons. Feel free to check out my first ever website I designed from scratch <a href="running.html">here</a> which is all about my running career.</p>
+                        <p>My biggest passion outside of software is running. I started running when I was in the eighth grade, and haven’t stopped since. I love spending part of my day out on the roads, trails, or mountains to forget about everything around me. I love competing in local road races ranging from 5k to half marathons. Feel free to check out my first ever website I designed from scratch <a href="running.html" target="_blank">here</a> which is all about my running career.</p>
                     </section>
                     <section>
                         <p>In terms of software, I have a large interest in game development and design. I have been playing games for the better part of my life, and they are what inspired me to pursue game development. Not only do I enjoy games in general, I believe they serve as an escape from the real world, and the hardships it can bring from time to time. I would love to be a member of a team that impacts a person’s life for the better through the power of games.</p>
@@ -110,24 +129,30 @@
                 <navElem id="Projects">
                     <section><h1>Notable Projects</h1></section>
                     <section>
-                        <p>I have worked on a handful of projects both in and out of school. Here are some selections that are interesting and I am proud of:</p>
+                        <p style="border-bottom: none;">I have worked on a handful of projects both in and out of school. Here are some selections that are interesting and I am proud of:</p>
                     </section>
                     <section><h3>Academic Projects</h2></section>
                     <section>
                         <h4>Trip Planning Application</h4>
-                        <img src="images/Placeholder.PNG">
+                        <div id="pictures">
+                            <img src="images/map.png" style="display: inline-block;">
+                            <img src="images/itinerary.png" style="display: inline-block;">
+                        </div>
+                        
                         <p>A web application designed to help a non experienced user plan a trip. The application was designed with Javascript and React, and a Java and Node.js backend server to make a full stack. The users were able to enter coordinates, upload a JSON file, view an itinerary containing total mileage and distance between locations, and customize their trip to their own desire. There was also a large focus placed in making the application friendly to users with no technical experience, and having a clean, usable mobile interface.</p>
                     </section>
 
                     <section></section>
                         <h4>Ray Tracer</h4>
-                        <img src="images/Placeholder.PNG">
+                        <div id="pictures">
+                            <img src="images/animated-small.gif" style="display: inline-block;">
+                            <img src="images/reflection.png" style="display: inline-block;">
+                        </div>
                         <p>Designed and written from scratch in C++, this ray tracer has the ability to generate photo realistic images. Taking in a driver file specifying camera placement, objects in the scene, and possible textures, photos are generated showing shadows, lighting, objects, and reflection.</p>
                     </section>
 
                     <section>   
                         <h4>Simple Database UI</h4>
-                        <img src="images/Placeholder.PNG">
                         <p>After fully implementing an SQL relational library database, a simple UI was made to interact with the data. Written in Java, JOptionPane was used to display messages and take input from the user. While the interface itself could have been prettier, the focus was to allow the user to check a book out from one of the several libraries stored on the database. The UI would guide the user through the process, and changes would be made to the database based on the input given.</p>
                     </section> 
 
@@ -161,6 +186,7 @@
                             Fort Collins, CO | <strong>2017 - 2020</strong><br>
                             Cumulative GPA: <strong>3.7</strong><br>
                             Relevant Coursework:
+                        
                             <ul>
                                 <li>Intro to Computer Graphics</li>
                                 <li>Intro to Artificial Intelligence</li>
@@ -169,11 +195,11 @@
                             </ul>
                             <ul>
                                 <li>Software Development</li>
+                                <li>Algorithms - Theory and Practice</li>
                                 <li>Database Systems</li>
                                 <li>Linear Algebra</li>
                             </ul>
-                            <br><br><br>
-                        </p>
+                        </p>    
                     </section>
                 </navElem>
 
@@ -197,7 +223,10 @@
                 </navElem>
 
                 <navElem id="Contact">
-                    <section><h1>Let's Get In Touch</h1></section>
+                    <div id="hero">
+                        <section><h1 style="position: absolute;">Let's Get In Touch</h1></section>
+                    </div>
+                    
                     <section>
                         <p>I'm more than excited to start my career, and I would love to do it with you! In order to get in touch with me, contact me here:</p>
                         <h3>campbellcarter444@gmail.com</h3>

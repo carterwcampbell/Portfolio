@@ -1,22 +1,19 @@
 $(document).ready(function() {
+    $(".languages").hide();
+    $(".practices").hide();
+    $(".communication").hide();
+    
     $(".tile").click(function() {
         $(this).toggleClass("active");
         if ($(this).attr("id") == ("lang")) {
-            $(".languages").toggleClass("active");
+            $(".languages").slideToggle("slow");
         }
         else if ($(this).attr("id") == ("prac")) {
-            $(".practices").toggleClass("active");
+            $(".practices").slideToggle("slow");
         }
         else if ($(this).attr("id") == ("comm")) {
-            $(".communication").toggleClass("active");
+            $(".communication").slideToggle("slow");
         }
-        
-    });
-});
-
-$(document).ready(function() {
-    $(".tile2").click(function() {
-        $(this).toggleClass("active");
         
     });
 });
