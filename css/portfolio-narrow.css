@@ -18,6 +18,10 @@
     width: 94%;
 }
 
+#hero h1 {
+    font-size: 2em;
+}
+
 .languages ul {
     display: block;
     text-align: center;
